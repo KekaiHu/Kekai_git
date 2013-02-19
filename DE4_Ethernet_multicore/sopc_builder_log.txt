@@ -1,0 +1,5 @@
+Info: Saving your IP search path in C:\Users\Murtaza\.altera.quartus\ip\11.1\ip_search_path\user_components.ipx
+Info: Using factories: CuspFactory, ImportFactory, DSPBuilderFactory, JarFactory, QvarFactory, TclModuleFactory, MegaVariationFactory, BeanElementFactory, LegacyFactory, DDRLegacyFactory, PresetFactory, EmbeddedSwTclDriverFactory, QsysFactory
+Progress: (0) searching J:/backup_01/dec_17/jan8/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_dec_02/11.1 (command line switch)
+Info: J:/backup_01/dec_17/jan8/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_dec_02/11.1 matched 1 files in 0.00 seconds
+Info: Found 0 components

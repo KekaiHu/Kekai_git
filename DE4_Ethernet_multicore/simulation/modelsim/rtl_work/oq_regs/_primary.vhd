@@ -1,0 +1,62 @@
+library verilog;
+use verilog.vl_types.all;
+entity oq_regs is
+    generic(
+        SRAM_ADDR_WIDTH : integer := 13;
+        CTRL_WIDTH      : integer := 8;
+        UDP_REG_SRC_WIDTH: integer := 2;
+        NUM_OUTPUT_QUEUES: integer := 8;
+        NUM_OQ_WIDTH    : vl_notype;
+        PKT_LEN_WIDTH   : integer := 11;
+        PKT_WORDS_WIDTH : vl_notype
+    );
+    port(
+        reg_req_in      : in     vl_logic;
+        reg_ack_in      : in     vl_logic;
+        reg_rd_wr_L_in  : in     vl_logic;
+        reg_addr_in     : in     vl_logic_vector(22 downto 0);
+        reg_data_in     : in     vl_logic_vector(31 downto 0);
+        reg_src_in      : in     vl_logic_vector;
+        reg_req_out     : out    vl_logic;
+        reg_ack_out     : out    vl_logic;
+        reg_rd_wr_L_out : out    vl_logic;
+        reg_addr_out    : out    vl_logic_vector(22 downto 0);
+        reg_data_out    : out    vl_logic_vector(31 downto 0);
+        reg_src_out     : out    vl_logic_vector;
+        src_oq_rd_addr  : out    vl_logic_vector;
+        src_oq_high_addr: out    vl_logic_vector;
+        src_oq_low_addr : out    vl_logic_vector;
+        src_oq_empty    : out    vl_logic_vector;
+        src_oq_rd_addr_new: in     vl_logic_vector;
+        pkt_removed     : in     vl_logic;
+        removed_pkt_data_length: in     vl_logic_vector;
+        removed_pkt_overhead_length: in     vl_logic_vector;
+        removed_pkt_total_word_length: in     vl_logic_vector;
+        src_oq          : in     vl_logic_vector;
+        removed_oq      : in     vl_logic_vector;
+        rd_src_addr     : in     vl_logic;
+        enable_send_pkt : out    vl_logic_vector;
+        dst_oq_wr_addr_new: in     vl_logic_vector;
+        pkt_stored      : in     vl_logic;
+        stored_pkt_data_length: in     vl_logic_vector;
+        stored_pkt_overhead_length: in     vl_logic_vector;
+        stored_pkt_total_word_length: in     vl_logic_vector;
+        pkt_dropped     : in     vl_logic;
+        dst_oq          : in     vl_logic_vector;
+        rd_dst_addr     : in     vl_logic;
+        dst_oq_high_addr: out    vl_logic_vector;
+        dst_oq_low_addr : out    vl_logic_vector;
+        dst_oq_wr_addr  : out    vl_logic_vector;
+        dst_oq_full     : out    vl_logic_vector;
+        clk             : in     vl_logic;
+        reset           : in     vl_logic
+    );
+    attribute mti_svvh_generic_type : integer;
+    attribute mti_svvh_generic_type of SRAM_ADDR_WIDTH : constant is 1;
+    attribute mti_svvh_generic_type of CTRL_WIDTH : constant is 1;
+    attribute mti_svvh_generic_type of UDP_REG_SRC_WIDTH : constant is 1;
+    attribute mti_svvh_generic_type of NUM_OUTPUT_QUEUES : constant is 1;
+    attribute mti_svvh_generic_type of NUM_OQ_WIDTH : constant is 3;
+    attribute mti_svvh_generic_type of PKT_LEN_WIDTH : constant is 1;
+    attribute mti_svvh_generic_type of PKT_WORDS_WIDTH : constant is 3;
+end oq_regs;

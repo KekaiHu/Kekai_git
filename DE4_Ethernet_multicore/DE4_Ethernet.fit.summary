@@ -1,0 +1,22 @@
+Fitter Status : Successful - Thu Jan 12 20:45:49 2012
+Quartus II Version : 11.0 Build 157 04/27/2011 SJ Full Version
+Revision Name : DE4_Ethernet
+Top-level Entity Name : DE4_Ethernet
+Family : Stratix IV
+Device : EP4SGX230KF40C2
+Timing Models : Final
+Logic utilization : 39 %
+    Combinational ALUTs : 48,001 / 182,400 ( 26 % )
+    Memory ALUTs : 172 / 91,200 ( < 1 % )
+    Dedicated logic registers : 41,104 / 182,400 ( 23 % )
+Total registers : 41104
+Total pins : 128 / 888 ( 14 % )
+Total virtual pins : 0
+Total block memory bits : 3,150,392 / 14,625,792 ( 22 % )
+DSP block 18-bit elements : 0 / 1,288 ( 0 % )
+Total GXB Receiver Channel PCS : 1 / 24 ( 4 % )
+Total GXB Receiver Channel PMA : 1 / 36 ( 3 % )
+Total GXB Transmitter Channel PCS : 1 / 24 ( 4 % )
+Total GXB Transmitter Channel PMA : 1 / 36 ( 3 % )
+Total PLLs : 3 / 8 ( 38 % )
+Total DLLs : 0 / 4 ( 0 % )

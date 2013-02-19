@@ -1,0 +1,817 @@
+# Reading C:/altera/11.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do DE4_Ethernet_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying c:\altera\11.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied c:\altera\11.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/ethernet_port_interface.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module ethernet_port_interface
+# 
+# Top level modules:
+# 	ethernet_port_interface
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/lr_old.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module lr_old
+# 
+# Top level modules:
+# 	lr_old
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/yf32 {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/yf32/yf32_define.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/megafunctions {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/megafunctions/rxfifo_8kx9_to_72.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module rxfifo_8kx9_to_72
+# 
+# Top level modules:
+# 	rxfifo_8kx9_to_72
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/megafunctions {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/megafunctions/rxlengthfifo_128x13.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module rxlengthfifo_128x13
+# 
+# Top level modules:
+# 	rxlengthfifo_128x13
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/megafunctions {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/megafunctions/txfifo_512x72_to_9.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module txfifo_512x72_to_9
+# 
+# Top level modules:
+# 	txfifo_512x72_to_9
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/sram_imp {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/sram_imp/sram.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module sram
+# 
+# Top level modules:
+# 	sram
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/megafunctions {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/megafunctions/syncfifo_512x72.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module syncfifo_512x72
+# 
+# Top level modules:
+# 	syncfifo_512x72
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/jtag_interface/megafunctions {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/jtag_interface/megafunctions/pci2net_16x60.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module pci2net_16x60
+# 
+# Top level modules:
+# 	pci2net_16x60
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16 {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/altgx_reconfig.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module altgx_reconfig_alt_dprio_vcj
+# -- Compiling module altgx_reconfig_alt2gxb_reconfig_v3p
+# -- Compiling module altgx_reconfig
+# 
+# Top level modules:
+# 	altgx_reconfig
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/RAM16_s36_s36_altera.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module RAM16_s36_s36_altera
+# 
+# Top level modules:
+# 	RAM16_s36_s36_altera
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16 {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/small_fifo_test_72.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module small_fifo_test_72
+# 
+# Top level modules:
+# 	small_fifo_test_72
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/hash_calculation.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module hash_calculation
+# 
+# Top level modules:
+# 	hash_calculation
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/RAMB16_S4_2_altera.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module RAMB16_S4_2_altera
+# 
+# Top level modules:
+# 	RAMB16_S4_2_altera
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/rom_shared.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module rom_shared
+# 
+# Top level modules:
+# 	rom_shared
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16 {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/pll_125.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module pll_125
+# 
+# Top level modules:
+# 	pll_125
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16 {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/nf_2.1_defines.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16 {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/registers.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16 {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/reg_defines_reference_router.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16 {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/udp_defines.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16 {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/de4_ethernet.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module DE4_Ethernet
+# 
+# Top level modules:
+# 	DE4_Ethernet
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16 {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/ext_pll_ctrl.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module ext_pll_ctrl
+# 
+# Top level modules:
+# 	ext_pll_ctrl
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/db {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/db/pll_125_altpll.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module pll_125_altpll
+# 
+# Top level modules:
+# 	pll_125_altpll
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16 {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/gen_reset_n.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module gen_reset_n
+# 
+# Top level modules:
+# 	gen_reset_n
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/CAM_monitor.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/registers.v(174): (vlog-2263) Redefinition of macro: OQ_DEFAULT_MAX_PKTS.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/registers.v(200): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_0_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/registers.v(205): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_1_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/registers.v(210): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_2_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/registers.v(215): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_3_HI.
+# -- Compiling module CAM_monitor
+# 
+# Top level modules:
+# 	CAM_monitor
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/yf32 {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/yf32/alu.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/yf32 {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/yf32/bus_mux.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module bus_mux
+# 
+# Top level modules:
+# 	bus_mux
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/yf32 {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/yf32/control.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/yf32 {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/yf32/mem_ctrl.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module mem_ctrl
+# 
+# Top level modules:
+# 	mem_ctrl
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/yf32 {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/yf32/mlite_cpu.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module mlite_cpu
+# 
+# Top level modules:
+# 	mlite_cpu
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/yf32 {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/yf32/mult.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module mult
+# 
+# Top level modules:
+# 	mult
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/yf32 {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/yf32/pc_next.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module pc_next
+# 
+# Top level modules:
+# 	pc_next
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/yf32 {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/yf32/pipeline.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module pipeline
+# 
+# Top level modules:
+# 	pipeline
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/yf32 {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/yf32/reg_bank.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module reg_bank
+# 
+# Top level modules:
+# 	reg_bank
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/yf32 {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/yf32/shifter.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/in_switch.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/registers.v(174): (vlog-2263) Redefinition of macro: OQ_DEFAULT_MAX_PKTS.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/registers.v(200): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_0_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/registers.v(205): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_1_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/registers.v(210): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_2_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/registers.v(215): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_3_HI.
+# -- Compiling module in_switch
+# 
+# Top level modules:
+# 	in_switch
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/flow_classification.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/registers.v(174): (vlog-2263) Redefinition of macro: OQ_DEFAULT_MAX_PKTS.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/registers.v(200): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_0_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/registers.v(205): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_1_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/registers.v(210): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_2_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/registers.v(215): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_3_HI.
+# -- Compiling module flow_classification
+# 
+# Top level modules:
+# 	flow_classification
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/packet_buffer.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/reg_defines_reference_router.v(79): (vlog-2263) Redefinition of macro: OQ_DEFAULT_MAX_PKTS.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/reg_defines_reference_router.v(105): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_0_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/reg_defines_reference_router.v(110): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_1_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/reg_defines_reference_router.v(115): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_2_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/reg_defines_reference_router.v(120): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_3_HI.
+# -- Compiling module packet_buffer
+# 
+# Top level modules:
+# 	packet_buffer
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/packet_buffer_bypass.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/reg_defines_reference_router.v(79): (vlog-2263) Redefinition of macro: OQ_DEFAULT_MAX_PKTS.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/reg_defines_reference_router.v(105): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_0_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/reg_defines_reference_router.v(110): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_1_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/reg_defines_reference_router.v(115): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_2_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/reg_defines_reference_router.v(120): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_3_HI.
+# -- Compiling module packet_buffer_bypass
+# 
+# Top level modules:
+# 	packet_buffer_bypass
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/out_arbiter.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/registers.v(174): (vlog-2263) Redefinition of macro: OQ_DEFAULT_MAX_PKTS.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/registers.v(200): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_0_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/registers.v(205): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_1_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/registers.v(210): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_2_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/registers.v(215): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_3_HI.
+# -- Compiling module out_arbiter
+# 
+# Top level modules:
+# 	out_arbiter
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/out_switch.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/registers.v(174): (vlog-2263) Redefinition of macro: OQ_DEFAULT_MAX_PKTS.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/registers.v(200): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_0_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/registers.v(205): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_1_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/registers.v(210): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_2_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/registers.v(215): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_3_HI.
+# -- Compiling module out_switch
+# 
+# Top level modules:
+# 	out_switch
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/ppu.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/registers.v(174): (vlog-2263) Redefinition of macro: OQ_DEFAULT_MAX_PKTS.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/registers.v(200): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_0_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/registers.v(205): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_1_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/registers.v(210): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_2_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/registers.v(215): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_3_HI.
+# -- Compiling module ppu
+# 
+# Top level modules:
+# 	ppu
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/yf32 {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/yf32/yf32_core.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module yf32_core
+# 
+# Top level modules:
+# 	yf32_core
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/registers.v(174): (vlog-2263) Redefinition of macro: OQ_DEFAULT_MAX_PKTS.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/registers.v(200): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_0_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/registers.v(205): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_1_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/registers.v(210): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_2_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/registers.v(215): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_3_HI.
+# -- Compiling module np_core
+# 
+# Top level modules:
+# 	np_core
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/rx_queue.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/reg_defines_reference_router.v(79): (vlog-2263) Redefinition of macro: OQ_DEFAULT_MAX_PKTS.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/reg_defines_reference_router.v(105): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_0_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/reg_defines_reference_router.v(110): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_1_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/reg_defines_reference_router.v(115): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_2_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/reg_defines_reference_router.v(120): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_3_HI.
+# -- Compiling module rx_queue
+# 
+# Top level modules:
+# 	rx_queue
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/user_data_path.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(79): (vlog-2263) Redefinition of macro: OQ_DEFAULT_MAX_PKTS.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(105): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_0_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(110): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_1_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(115): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_2_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(120): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_3_HI.
+# -- Compiling module user_data_path
+# 
+# Top level modules:
+# 	user_data_path
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/input_arbiter.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(79): (vlog-2263) Redefinition of macro: OQ_DEFAULT_MAX_PKTS.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(105): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_0_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(110): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_1_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(115): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_2_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(120): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_3_HI.
+# -- Compiling module input_arbiter
+# 
+# Top level modules:
+# 	input_arbiter
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/small_fifo_v3.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module small_fifo
+# 
+# Top level modules:
+# 	small_fifo
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/in_arb_regs.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/registers.v(174): (vlog-2263) Redefinition of macro: OQ_DEFAULT_MAX_PKTS.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/registers.v(200): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_0_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/registers.v(205): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_1_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/registers.v(210): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_2_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/registers.v(215): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_3_HI.
+# -- Compiling module in_arb_regs
+# 
+# Top level modules:
+# 	in_arb_regs
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/output_queues.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(79): (vlog-2263) Redefinition of macro: OQ_DEFAULT_MAX_PKTS.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(105): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_0_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(110): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_1_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(115): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_2_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(120): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_3_HI.
+# -- Compiling module output_queues
+# 
+# Top level modules:
+# 	output_queues
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/oq_header_parser.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module oq_header_parser
+# 
+# Top level modules:
+# 	oq_header_parser
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/fallthrough_small_fifo_v2.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module fallthrough_small_fifo
+# -- Compiling module fallthrough_small_fifo_tester
+# 
+# Top level modules:
+# 	fallthrough_small_fifo_tester
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/store_pkt.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module store_pkt
+# 
+# Top level modules:
+# 	store_pkt
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/remove_pkt.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module remove_pkt
+# 
+# Top level modules:
+# 	remove_pkt
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/oq_regs.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(79): (vlog-2263) Redefinition of macro: OQ_DEFAULT_MAX_PKTS.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(105): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_0_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(110): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_1_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(115): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_2_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(120): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_3_HI.
+# -- Compiling module oq_regs
+# 
+# Top level modules:
+# 	oq_regs
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/oq_regs_ctrl.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(79): (vlog-2263) Redefinition of macro: OQ_DEFAULT_MAX_PKTS.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(105): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_0_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(110): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_1_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(115): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_2_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(120): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_3_HI.
+# -- Compiling module oq_regs_ctrl
+# 
+# Top level modules:
+# 	oq_regs_ctrl
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/oq_regs_eval_empty.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module oq_regs_eval_empty
+# 
+# Top level modules:
+# 	oq_regs_eval_empty
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/oq_regs_eval_full.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module oq_regs_eval_full
+# 
+# Top level modules:
+# 	oq_regs_eval_full
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/oq_regs_host_iface.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(79): (vlog-2263) Redefinition of macro: OQ_DEFAULT_MAX_PKTS.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(105): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_0_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(110): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_1_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(115): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_2_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(120): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_3_HI.
+# -- Compiling module oq_regs_host_iface
+# 
+# Top level modules:
+# 	oq_regs_host_iface
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/oq_reg_instances.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module oq_reg_instances
+# 
+# Top level modules:
+# 	oq_reg_instances
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/oq_regs_generic_reg_grp.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(79): (vlog-2263) Redefinition of macro: OQ_DEFAULT_MAX_PKTS.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(105): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_0_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(110): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_1_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(115): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_2_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(120): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_3_HI.
+# -- Compiling module oq_regs_generic_reg_grp
+# 
+# Top level modules:
+# 	oq_regs_generic_reg_grp
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/oq_regs_dual_port_ram.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(79): (vlog-2263) Redefinition of macro: OQ_DEFAULT_MAX_PKTS.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(105): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_0_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(110): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_1_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(115): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_2_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(120): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_3_HI.
+# -- Compiling module oq_regs_dual_port_ram
+# 
+# Top level modules:
+# 	oq_regs_dual_port_ram
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/router_op_lut_regs_non_cntr.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(79): (vlog-2263) Redefinition of macro: OQ_DEFAULT_MAX_PKTS.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(105): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_0_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(110): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_1_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(115): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_2_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(120): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_3_HI.
+# -- Compiling module router_op_lut_regs_non_cntr
+# 
+# Top level modules:
+# 	router_op_lut_regs_non_cntr
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/nf2_core.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/registers.v(174): (vlog-2263) Redefinition of macro: OQ_DEFAULT_MAX_PKTS.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/registers.v(200): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_0_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/registers.v(205): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_1_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/registers.v(210): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_2_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/registers.v(215): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_3_HI.
+# -- Compiling module nf2_core
+# 
+# Top level modules:
+# 	nf2_core
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/nf2_mac_grp.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/reg_defines_reference_router.v(79): (vlog-2263) Redefinition of macro: OQ_DEFAULT_MAX_PKTS.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/reg_defines_reference_router.v(105): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_0_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/reg_defines_reference_router.v(110): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_1_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/reg_defines_reference_router.v(115): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_2_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/reg_defines_reference_router.v(120): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_3_HI.
+# -- Compiling module nf2_mac_grp
+# 
+# Top level modules:
+# 	nf2_mac_grp
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/pulse_synchronizer.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/reg_defines_reference_router.v(79): (vlog-2263) Redefinition of macro: OQ_DEFAULT_MAX_PKTS.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/reg_defines_reference_router.v(105): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_0_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/reg_defines_reference_router.v(110): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_1_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/reg_defines_reference_router.v(115): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_2_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/reg_defines_reference_router.v(120): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_3_HI.
+# -- Compiling module pulse_synchronizer
+# 
+# Top level modules:
+# 	pulse_synchronizer
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/tx_queue.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module tx_queue
+# 
+# Top level modules:
+# 	tx_queue
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/mac_grp_regs.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/reg_defines_reference_router.v(79): (vlog-2263) Redefinition of macro: OQ_DEFAULT_MAX_PKTS.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/reg_defines_reference_router.v(105): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_0_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/reg_defines_reference_router.v(110): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_1_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/reg_defines_reference_router.v(115): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_2_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/reg_defines_reference_router.v(120): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_3_HI.
+# -- Compiling module mac_grp_regs
+# 
+# Top level modules:
+# 	mac_grp_regs
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/udp_reg_master.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(79): (vlog-2263) Redefinition of macro: OQ_DEFAULT_MAX_PKTS.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(105): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_0_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(110): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_1_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(115): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_2_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/reg_defines_reference_router.v(120): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_3_HI.
+# -- Compiling module udp_reg_master
+# 
+# Top level modules:
+# 	udp_reg_master
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/nf2_core {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/nf2_core/unused_reg.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/nf2_core/reg_defines_reference_router.v(79): (vlog-2263) Redefinition of macro: OQ_DEFAULT_MAX_PKTS.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/nf2_core/reg_defines_reference_router.v(105): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_0_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/nf2_core/reg_defines_reference_router.v(110): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_1_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/nf2_core/reg_defines_reference_router.v(115): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_2_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/nf2_core/reg_defines_reference_router.v(120): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_3_HI.
+# -- Compiling module unused_reg
+# 
+# Top level modules:
+# 	unused_reg
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/nf2_core {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/nf2_core/nf2_reg_grp.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/nf2_core/reg_defines_reference_router.v(79): (vlog-2263) Redefinition of macro: OQ_DEFAULT_MAX_PKTS.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/nf2_core/reg_defines_reference_router.v(105): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_0_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/nf2_core/reg_defines_reference_router.v(110): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_1_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/nf2_core/reg_defines_reference_router.v(115): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_2_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/nf2_core/reg_defines_reference_router.v(120): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_3_HI.
+# -- Compiling module nf2_reg_grp
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/nf2_core/nf2_reg_grp.v(102): (vlog-2249) Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# Top level modules:
+# 	nf2_reg_grp
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/nf2_core {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/nf2_core/device_id_reg.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/nf2_core/reg_defines_reference_router.v(79): (vlog-2263) Redefinition of macro: OQ_DEFAULT_MAX_PKTS.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/nf2_core/reg_defines_reference_router.v(105): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_0_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/nf2_core/reg_defines_reference_router.v(110): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_1_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/nf2_core/reg_defines_reference_router.v(115): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_2_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/nf2_core/reg_defines_reference_router.v(120): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_3_HI.
+# -- Compiling module device_id_reg
+# 
+# Top level modules:
+# 	device_id_reg
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/jtag_interface {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/jtag_interface/jtag_bus.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/jtag_interface/reg_defines_reference_router.v(79): (vlog-2263) Redefinition of macro: OQ_DEFAULT_MAX_PKTS.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/jtag_interface/reg_defines_reference_router.v(105): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_0_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/jtag_interface/reg_defines_reference_router.v(110): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_1_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/jtag_interface/reg_defines_reference_router.v(115): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_2_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/jtag_interface/reg_defines_reference_router.v(120): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_3_HI.
+# -- Compiling module jtag_bus
+# 
+# Top level modules:
+# 	jtag_bus
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/nf2_core {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/nf2_core/reg_grp.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/nf2_core/reg_defines_reference_router.v(79): (vlog-2263) Redefinition of macro: OQ_DEFAULT_MAX_PKTS.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/nf2_core/reg_defines_reference_router.v(105): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_0_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/nf2_core/reg_defines_reference_router.v(110): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_1_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/nf2_core/reg_defines_reference_router.v(115): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_2_HI.
+# ** Warning: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/nf2_core/reg_defines_reference_router.v(120): (vlog-2263) Redefinition of macro: ROUTER_OP_LUT_DEFAULT_MAC_3_HI.
+# -- Compiling module reg_grp
+# 
+# Top level modules:
+# 	reg_grp
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16 {C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/ethernet_port_interface_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module ethernet_port_interface_tb
+# 
+# Top level modules:
+# 	ethernet_port_interface_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L stratixiv_hssi_ver -L stratixiv_pcie_hip_ver -L stratixiv_ver -L rtl_work -L work -voptargs="+acc"  ethernet_port_interface_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L stratixiv_hssi_ver -L stratixiv_pcie_hip_ver -L stratixiv_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps ethernet_port_interface_tb 
+# Loading work.ethernet_port_interface_tb
+# Loading work.ethernet_port_interface
+# Loading work.nf2_core
+# Loading work.jtag_bus
+# Loading work.pci2net_16x60
+# Loading altera_mf_ver.scfifo
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading work.user_data_path
+# Loading work.input_arbiter
+# Loading work.in_arb_regs
+# Loading work.np_core
+# Loading work.flow_classification
+# Loading work.ppu
+# Loading work.in_switch
+# Loading work.out_switch
+# Loading work.packet_buffer
+# Loading work.RAM16_s36_s36_altera
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.packet_buffer_bypass
+# Loading work.lr_old
+# Loading work.RAMB16_S4_2_altera
+# Loading work.yf32_core
+# Loading work.mlite_cpu
+# Loading work.pc_next
+# Loading work.mem_ctrl
+# Loading work.control
+# Loading work.reg_bank
+# Loading work.bus_mux
+# Loading work.alu
+# Loading work.shifter
+# Loading work.mult
+# Loading work.pipeline
+# Loading work.hash_calculation
+# Loading work.CAM_monitor
+# Loading work.rom_shared
+# Loading work.router_op_lut_regs_non_cntr
+# Loading work.out_arbiter
+# Loading work.small_fifo_test_72
+# Loading work.output_queues
+# Loading work.oq_header_parser
+# Loading work.fallthrough_small_fifo
+# Loading work.small_fifo
+# Loading work.store_pkt
+# Loading work.remove_pkt
+# Loading work.oq_regs
+# Loading work.oq_regs_ctrl
+# Loading work.oq_regs_eval_empty
+# Loading work.oq_regs_eval_full
+# Loading work.oq_regs_host_iface
+# Loading work.oq_reg_instances
+# Loading work.oq_regs_generic_reg_grp
+# Loading work.oq_regs_dual_port_ram
+# Loading work.udp_reg_master
+# Loading work.sram
+# Loading work.nf2_reg_grp
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by:   Hostname:   ProcessID: 61
+#           Attempting to use alternate WLF file "./wlftddsesm".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftddsesm
+# ** Warning: (vsim-8607) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/nf2_core/nf2_reg_grp.v(102): Non-positive replication multiplier inside concat. Replication will be ignored.
+# Loading work.reg_grp
+# Loading work.device_id_reg
+# Loading work.unused_reg
+# Loading work.syncfifo_512x72
+# Loading work.nf2_mac_grp
+# Loading work.rx_queue
+# Loading work.pulse_synchronizer
+# Loading work.tx_queue
+# Loading work.mac_grp_regs
+# Loading work.rxfifo_8kx9_to_72
+# Loading altera_mf_ver.dcfifo_mixed_widths
+# Loading altera_mf_ver.dcfifo_low_latency
+# Loading altera_mf_ver.ALTERA_MF_HINT_EVALUATION
+# Loading altera_mf_ver.dcfifo_dffpipe
+# Loading work.rxlengthfifo_128x13
+# Loading work.txfifo_512x72_to_9
+# Loading altera_mf_ver.dcfifo_async
+# Loading altera_mf_ver.dcfifo_fefifo
+# ** Warning: (vsim-3017) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/ethernet_port_interface_tb.v(158): [TFMPC] - Too few port connections. Expected 76, found 57.
+#         Region: /ethernet_port_interface_tb/DUT
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/ethernet_port_interface_tb.v(158): [TFMPC] - Missing connection for port 'txs_chip_select'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/ethernet_port_interface_tb.v(158): [TFMPC] - Missing connection for port 'txs_read'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/ethernet_port_interface_tb.v(158): [TFMPC] - Missing connection for port 'txs_write'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/ethernet_port_interface_tb.v(158): [TFMPC] - Missing connection for port 'txs_address'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/ethernet_port_interface_tb.v(158): [TFMPC] - Missing connection for port 'txs_burst_count'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/ethernet_port_interface_tb.v(158): [TFMPC] - Missing connection for port 'txs_writedata'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/ethernet_port_interface_tb.v(158): [TFMPC] - Missing connection for port 'txs_byteenable'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/ethernet_port_interface_tb.v(158): [TFMPC] - Missing connection for port 'txs_read_valid'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/ethernet_port_interface_tb.v(158): [TFMPC] - Missing connection for port 'txs_readdata'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/ethernet_port_interface_tb.v(158): [TFMPC] - Missing connection for port 'txs_wait_request'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/ethernet_port_interface_tb.v(158): [TFMPC] - Missing connection for port 'rxm_read_bar_0_1'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/ethernet_port_interface_tb.v(158): [TFMPC] - Missing connection for port 'rxm_write_bar_0_1'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/ethernet_port_interface_tb.v(158): [TFMPC] - Missing connection for port 'rxm_address_bar_0_1'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/ethernet_port_interface_tb.v(158): [TFMPC] - Missing connection for port 'rxm_writedata_bar_0_1'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/ethernet_port_interface_tb.v(158): [TFMPC] - Missing connection for port 'rxm_byteenable_bar_0_1'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/ethernet_port_interface_tb.v(158): [TFMPC] - Missing connection for port 'rxm_burst_count_bar_0_1'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/ethernet_port_interface_tb.v(158): [TFMPC] - Missing connection for port 'rxm_wait_request_bar_0_1'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/ethernet_port_interface_tb.v(158): [TFMPC] - Missing connection for port 'rxm_readdata_bar_0_1'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/ethernet_port_interface_tb.v(158): [TFMPC] - Missing connection for port 'rxm_read_valid_bar_0_1'.
+# ** Warning: (vsim-3015) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/rx_queue.v(218): [PCDPC] - Port size (15 or 15) does not match connection size (13) for port 'wrusedw'. The port definition is at: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/megafunctions/rxfifo_8kx9_to_72.v(49).
+#         Region: /ethernet_port_interface_tb/DUT/nf2_core/mac_groups[0]/nf2_mac_grp/rx_queue/rx_fifo_64/gmac_rx_fifo
+# ** Warning: (vsim-3015) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/rx_queue.v(218): [PCDPC] - Port size (15 or 15) does not match connection size (13) for port 'wrusedw'. The port definition is at: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/megafunctions/rxfifo_8kx9_to_72.v(49).
+#         Region: /ethernet_port_interface_tb/DUT/nf2_core/mac_groups[1]/nf2_mac_grp/rx_queue/rx_fifo_64/gmac_rx_fifo
+# ** Warning: (vsim-3015) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/rx_queue.v(218): [PCDPC] - Port size (15 or 15) does not match connection size (13) for port 'wrusedw'. The port definition is at: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/megafunctions/rxfifo_8kx9_to_72.v(49).
+#         Region: /ethernet_port_interface_tb/DUT/nf2_core/mac_groups[2]/nf2_mac_grp/rx_queue/rx_fifo_64/gmac_rx_fifo
+# ** Warning: (vsim-3015) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/rx_queue.v(218): [PCDPC] - Port size (15 or 15) does not match connection size (13) for port 'wrusedw'. The port definition is at: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/rx_tx_queues/megafunctions/rxfifo_8kx9_to_72.v(49).
+#         Region: /ethernet_port_interface_tb/DUT/nf2_core/mac_groups[3]/nf2_mac_grp/rx_queue/rx_fifo_64/gmac_rx_fifo
+# ** Warning: (vsim-3015) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/nf2_core.v(797): [PCDPC] - Port size (19 or 19) does not match connection size (13) for port 'wr_0_addr'. The port definition is at: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/user_data_path.v(171).
+#         Region: /ethernet_port_interface_tb/DUT/nf2_core/user_data_path
+# ** Warning: (vsim-3015) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/nf2_core.v(797): [PCDPC] - Port size (19 or 19) does not match connection size (13) for port 'rd_0_addr'. The port definition is at: C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/user_data_path.v(179).
+#         Region: /ethernet_port_interface_tb/DUT/nf2_core/user_data_path
+# ** Warning: (vsim-3017) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/user_data_path.v(569): [TFMPC] - Too few port connections. Expected 28, found 26.
+#         Region: /ethernet_port_interface_tb/DUT/nf2_core/user_data_path/np_core
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/user_data_path.v(569): [TFMPC] - Missing connection for port 'instruction_sec_mon'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/user_data_path.v(569): [TFMPC] - Missing connection for port 'prog_counter_sec_mon'.
+# ** Warning: (vsim-3017) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(305): [TFMPC] - Too few port connections. Expected 47, found 34.
+#         Region: /ethernet_port_interface_tb/DUT/nf2_core/user_data_path/np_core/fc
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(305): [TFMPC] - Missing connection for port 'reg_req_in'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(305): [TFMPC] - Missing connection for port 'reg_ack_in'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(305): [TFMPC] - Missing connection for port 'reg_rd_wr_L_in'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(305): [TFMPC] - Missing connection for port 'reg_addr_in'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(305): [TFMPC] - Missing connection for port 'reg_data_in'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(305): [TFMPC] - Missing connection for port 'reg_src_in'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(305): [TFMPC] - Missing connection for port 'reg_req_out'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(305): [TFMPC] - Missing connection for port 'reg_ack_out'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(305): [TFMPC] - Missing connection for port 'reg_rd_wr_L_out'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(305): [TFMPC] - Missing connection for port 'reg_addr_out'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(305): [TFMPC] - Missing connection for port 'reg_data_out'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(305): [TFMPC] - Missing connection for port 'reg_src_out'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(305): [TFMPC] - Missing connection for port 'protocol_signal'.
+# ** Warning: (vsim-3017) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(489): [TFMPC] - Too few port connections. Expected 77, found 75.
+#         Region: /ethernet_port_interface_tb/DUT/nf2_core/user_data_path/np_core/ppu0
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(489): [TFMPC] - Missing connection for port 'TRIG_OS'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(489): [TFMPC] - Missing connection for port 'cam_wr_ack'.
+# ** Warning: (vsim-3017) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/CAM_monitor.v(77): [TFMPC] - Too few port connections. Expected 8, found 6.
+#         Region: /ethernet_port_interface_tb/DUT/nf2_core/user_data_path/np_core/security_mon/rom
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/CAM_monitor.v(77): [TFMPC] - Missing connection for port 'aclr'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/CAM_monitor.v(77): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3017) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(548): [TFMPC] - Too few port connections. Expected 50, found 16.
+#         Region: /ethernet_port_interface_tb/DUT/nf2_core/user_data_path/np_core/router_op_lut_regs_non_cntr
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(548): [TFMPC] - Missing connection for port 'reg_req_out'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(548): [TFMPC] - Missing connection for port 'reg_ack_out'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(548): [TFMPC] - Missing connection for port 'reg_rd_wr_L_out'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(548): [TFMPC] - Missing connection for port 'reg_addr_out'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(548): [TFMPC] - Missing connection for port 'reg_data_out'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(548): [TFMPC] - Missing connection for port 'reg_src_out'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(548): [TFMPC] - Missing connection for port 'lpm_rd_addr'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(548): [TFMPC] - Missing connection for port 'lpm_rd_req'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(548): [TFMPC] - Missing connection for port 'lpm_rd_ip'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(548): [TFMPC] - Missing connection for port 'lpm_rd_mask'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(548): [TFMPC] - Missing connection for port 'lpm_rd_oq'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(548): [TFMPC] - Missing connection for port 'lpm_rd_next_hop_ip'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(548): [TFMPC] - Missing connection for port 'lpm_rd_ack'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(548): [TFMPC] - Missing connection for port 'lpm_wr_addr'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(548): [TFMPC] - Missing connection for port 'lpm_wr_req'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(548): [TFMPC] - Missing connection for port 'lpm_wr_oq'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(548): [TFMPC] - Missing connection for port 'lpm_wr_next_hop_ip'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(548): [TFMPC] - Missing connection for port 'lpm_wr_ip'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(548): [TFMPC] - Missing connection for port 'lpm_wr_mask'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(548): [TFMPC] - Missing connection for port 'lpm_wr_ack'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(548): [TFMPC] - Missing connection for port 'arp_rd_addr'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(548): [TFMPC] - Missing connection for port 'arp_rd_req'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(548): [TFMPC] - Missing connection for port 'arp_rd_mac'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(548): [TFMPC] - Missing connection for port 'arp_rd_ip'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(548): [TFMPC] - Missing connection for port 'arp_rd_ack'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(548): [TFMPC] - Missing connection for port 'arp_wr_addr'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(548): [TFMPC] - Missing connection for port 'arp_wr_req'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(548): [TFMPC] - Missing connection for port 'arp_wr_mac'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(548): [TFMPC] - Missing connection for port 'arp_wr_ip'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(548): [TFMPC] - Missing connection for port 'arp_wr_ack'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(548): [TFMPC] - Missing connection for port 'mac_0'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(548): [TFMPC] - Missing connection for port 'mac_1'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(548): [TFMPC] - Missing connection for port 'mac_2'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(548): [TFMPC] - Missing connection for port 'mac_3'.
+# ** Warning: (vsim-3017) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(833): [TFMPC] - Too few port connections. Expected 46, found 34.
+#         Region: /ethernet_port_interface_tb/DUT/nf2_core/user_data_path/np_core/oa
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(833): [TFMPC] - Missing connection for port 'reg_req_in'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(833): [TFMPC] - Missing connection for port 'reg_ack_in'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(833): [TFMPC] - Missing connection for port 'reg_rd_wr_L_in'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(833): [TFMPC] - Missing connection for port 'reg_addr_in'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(833): [TFMPC] - Missing connection for port 'reg_data_in'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(833): [TFMPC] - Missing connection for port 'reg_src_in'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(833): [TFMPC] - Missing connection for port 'reg_req_out'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(833): [TFMPC] - Missing connection for port 'reg_ack_out'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(833): [TFMPC] - Missing connection for port 'reg_rd_wr_L_out'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(833): [TFMPC] - Missing connection for port 'reg_addr_out'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(833): [TFMPC] - Missing connection for port 'reg_data_out'.
+# ** Warning: (vsim-3722) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/sources_ngnp_multicore/src/np_core.v(833): [TFMPC] - Missing connection for port 'reg_src_out'.
+# ** Warning: (vsim-8607) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/oq_regs_generic_reg_grp.v(270): Non-positive replication multiplier inside concat. Replication will be ignored.
+# ** Warning: (vsim-8607) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/oq_regs_generic_reg_grp.v(270): Non-positive replication multiplier inside concat. Replication will be ignored.
+# ** Warning: (vsim-8607) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/oq_regs_generic_reg_grp.v(270): Non-positive replication multiplier inside concat. Replication will be ignored.
+# ** Warning: (vsim-8607) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/oq_regs_generic_reg_grp.v(270): Non-positive replication multiplier inside concat. Replication will be ignored.
+# ** Warning: (vsim-8607) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/oq_regs_generic_reg_grp.v(270): Non-positive replication multiplier inside concat. Replication will be ignored.
+# ** Warning: (vsim-8607) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/oq_regs_generic_reg_grp.v(270): Non-positive replication multiplier inside concat. Replication will be ignored.
+# ** Warning: (vsim-8607) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/oq_regs_generic_reg_grp.v(270): Non-positive replication multiplier inside concat. Replication will be ignored.
+# ** Warning: (vsim-8607) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/oq_regs_generic_reg_grp.v(613): Non-positive replication multiplier inside concat. Replication will be ignored.
+# ** Warning: (vsim-8607) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/oq_regs_generic_reg_grp.v(613): Non-positive replication multiplier inside concat. Replication will be ignored.
+# ** Warning: (vsim-8607) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/oq_regs_generic_reg_grp.v(613): Non-positive replication multiplier inside concat. Replication will be ignored.
+# ** Warning: (vsim-8607) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/userdatapath/oq_regs_generic_reg_grp.v(613): Non-positive replication multiplier inside concat. Replication will be ignored.
+# ** Warning: (vsim-8607) C:/Users/rcg/Desktop/Kekai_Feb_16/DE4_Ethernet_single_memory_1cycle_simulation_Harvard_attack_seperate-Monitor_feb_16/NetFPGA_files/nf2_core/nf2_reg_grp.v(102): Non-positive replication multiplier inside concat. Replication will be ignored.
+# WARNING: No extended dataflow license exists
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#                32000 ERROR: (ethernet_port_interface_tb.DUT.nf2_core.mac_groups[0].nf2_mac_grp.tx_queue) state machine in illegal state 0xxx
+#                32000 ERROR: (ethernet_port_interface_tb.DUT.nf2_core.mac_groups[1].nf2_mac_grp.tx_queue) state machine in illegal state 0xxx
+#                32000 ERROR: (ethernet_port_interface_tb.DUT.nf2_core.mac_groups[2].nf2_mac_grp.tx_queue) state machine in illegal state 0xxx
+#                32000 ERROR: (ethernet_port_interface_tb.DUT.nf2_core.mac_groups[3].nf2_mac_grp.tx_queue) state machine in illegal state 0xxx
+#  
+radix 16
+# hexadecimal

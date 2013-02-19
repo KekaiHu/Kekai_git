@@ -1,0 +1,50 @@
+module get_tse_data 
+   (
+		output 		[7:0] gmac_tx_data_1_out,
+		output 		gmac_tx_dvld_1_out,
+		output 		gmac_tx_ack_1_out,
+		  
+		input 		[7:0] gmac_rx_data_1_in,
+		input 		gmac_rx_dvld_1_in,
+		input 		gmac_rx_frame_error_1_in, 
+		
+		output 		[7:0] gmac_tx_data_2_out,
+		output 		gmac_tx_dvld_2_out,
+		output 		gmac_tx_ack_2_out,
+		  
+		input 		[7:0] gmac_rx_data_2_in,
+		input 		gmac_rx_dvld_2_in,
+		input 		gmac_rx_frame_error_2_in, 
+		
+		output 		[7:0] gmac_tx_data_3_out,
+		output 		gmac_tx_dvld_3_out,
+		output 		gmac_tx_ack_3_out,
+		  
+		input 		[7:0] gmac_rx_data_3_in,
+		input 		gmac_rx_dvld_3_in,
+		input 		gmac_rx_frame_error_3_in, 
+		
+		output 		[7:0] gmac_tx_data_0_out,
+		output 		gmac_tx_dvld_0_out,
+		output 		gmac_tx_ack_0_out,
+		  
+		input 		[7:0] gmac_rx_data_0_in,
+		input 		gmac_rx_dvld_0_in,
+		input 		gmac_rx_frame_error_0_in, 
+
+      input        tx_rgmii_clk_int,
+      input        rx_rgmii_0_clk_int,
+      input        rx_rgmii_1_clk_int,
+      input        rx_rgmii_2_clk_int,
+      input        rx_rgmii_3_clk_int,
+
+      // core clock
+      input        core_clk_int,
+
+      // misc
+      input        reset    
+
+   );
+	
+	
+	endmodule

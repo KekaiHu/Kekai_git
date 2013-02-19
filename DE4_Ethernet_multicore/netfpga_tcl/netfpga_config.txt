@@ -1,0 +1,22 @@
+set_router_MAC_generic
+  $reg_write->( @aux, (main::ROUTER_OP_LUT_MAC_0_HI_REG() + ($port*8)), $mac_hi);
+  $reg_write->( @aux, (main::ROUTER_OP_LUT_MAC_0_LO_REG() + ($port*8)), $mac_lo);
+
+add_LPM_table_entry_generic
+  $reg_write->( @aux, main::ROUTER_OP_LUT_ROUTE_TABLE_ENTRY_IP_REG(), $IP);
+  $reg_write->( @aux, main::ROUTER_OP_LUT_ROUTE_TABLE_ENTRY_MASK_REG(), $mask);
+  $reg_write->( @aux, main::ROUTER_OP_LUT_ROUTE_TABLE_ENTRY_NEXT_HOP_IP_REG(), $next_IP);
+  $reg_write->( @aux, main::ROUTER_OP_LUT_ROUTE_TABLE_ENTRY_OUTPUT_PORT_REG(), $next_port);
+  $reg_write->( @aux, main::ROUTER_OP_LUT_ROUTE_TABLE_WR_ADDR_REG(), $index);
+  
+add_dst_ip_filter_entry_generic 
+  $reg_write->( @aux, main::ROUTER_OP_LUT_DST_IP_FILTER_TABLE_ENTRY_IP_REG(), $IP);
+  $reg_write->( @aux, main::ROUTER_OP_LUT_DST_IP_FILTER_TABLE_WR_ADDR_REG(), $index);
+  
+add_ARP_table_entry_generic
+  $reg_write->( @aux, main::ROUTER_OP_LUT_ARP_TABLE_ENTRY_NEXT_HOP_IP_REG(), $IP);
+  $reg_write->( @aux, main::ROUTER_OP_LUT_ARP_TABLE_ENTRY_MAC_HI_REG(), $mac_hi);
+  $reg_write->( @aux, main::ROUTER_OP_LUT_ARP_TABLE_ENTRY_MAC_LO_REG(), $mac_lo);
+  $reg_write->( @aux, main::ROUTER_OP_LUT_ARP_TABLE_WR_ADDR_REG(), $index);
+
+  
